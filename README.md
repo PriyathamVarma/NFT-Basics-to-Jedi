@@ -7,6 +7,8 @@ NFTs are unique and are owned by owners address. These can be used for real esta
 
 ### Use of metadata
 
+APIs for the NFT.
+
 ### Use of Enumerable
 
 Check the balance of account on how many NFTs an account has.
@@ -33,6 +35,7 @@ The ERC721URIStorage contract is an implementation of ERC721 that includes the m
 ## Important Links
 
 - [Open Zeppelin](https://docs.openzeppelin.com/)
+- [Best NFT site](https://nftschool.dev/)
 
 
 ## Tools
