@@ -2,6 +2,10 @@
 
 ## Content addressing motivation
 
+* Why location addressing fails?
+
+
+
 ## Content addressing in IPFS(Inter Planetary file system)
 
 1. Chunking
