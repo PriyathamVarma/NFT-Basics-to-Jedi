@@ -4,7 +4,7 @@
 
 ![Content addressing](https://github.com/PriyathamVarma/Basic_NFT/blob/main/Diagrams/Content-addressing.drawio.png)
 
-* Why location addressing fails?
+> Why location addressing fails?
 
 - The URL points to a single copy stored in a single location
 - The copy disappears, there is no way of knowing other copies locations.
