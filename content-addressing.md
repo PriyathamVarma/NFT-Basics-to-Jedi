@@ -14,12 +14,16 @@
 > The address of the content(fingerprint) is derived from the content itself and not from the location where it is stored.
 
 
-## CID(Content Identifiers)
+### CID(Content Identifiers)
 
 - Most fundamental for IPFS architecture.
 - Used for content addressing
 - Used to name every piece of data in IPFS
 - A hash with some metadata
+
+### Integrity Checking
+
+![Integrity Checking](https://github.com/PriyathamVarma/Basic_NFT/blob/main/Diagrams/Integrity%20checking.drawio.png)
 
 ## Content addressing in IPFS(Inter Planetary file system)
 
