@@ -23,6 +23,8 @@ The ERC721URIStorage contract is an implementation of ERC721 that includes the m
 
 > Why metadata standards are needed?
 
+![metadata](https://github.com/PriyathamVarma/Basic_NFT/blob/main/Diagrams/NFT_1.drawio.png)
+
 To make your NFT's compatible with market places and other platforms we need to follow the standards.
 
 ### Metadata schemas
