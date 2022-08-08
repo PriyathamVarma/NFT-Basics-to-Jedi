@@ -29,7 +29,7 @@ The hash/fingerprint that is requested cannot be changed as every content is has
 
 ### IPFS components
 
-#### Content Addressing
+#### [Content Addressing](https://github.com/PriyathamVarma/Basic_NFT/tree/main/Content-addressing/Chunking)
 
 - Chunking
 - Linking chunks in merkle DAGs
