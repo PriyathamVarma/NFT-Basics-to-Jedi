@@ -54,13 +54,6 @@ The hash/fingerprint that is requested cannot be changed as every content is has
 - PubSub
 - CRDTs.
 
-## Content addressing in IPFS(Inter Planetary file system)
-
-1. Chunking
-2. Linking Chunks in Merkle DAGs
-3. Going from data to data structures with IPLD
-
-## Anatomy of the IPFS content Identifier(CID)
 
 
 
