@@ -21,7 +21,7 @@ The ERC721URIStorage contract is an implementation of ERC721 that includes the m
 
 ### [Content Addressing](https://github.com/PriyathamVarma/Basic_NFT/tree/main/Content-addressing)
 
-
+Content addressing is used to store the data file.
 
 ### Metadata schemas
 
@@ -39,6 +39,10 @@ To make your NFT's compatible with market places and other platforms we need to 
 
 The most common format used for NFT metadata is [JSON](https://www.json.org/json-en.html). 
 
+> Linking to NFT Assets
+
+When linking from your metadata to another digital asset like an image file, we recommend storing the asset on IPFS and using an IPFS Uniform Resource Identifier (URI) to reference the asset. An IPFS URI is just the string ipfs:// followed by an IPFS CID (opens new window), for example: ipfs://bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi.
+
 ## Prerequesties
 
 - We need a smart contract to deploy the NFT tokens
@@ -54,6 +58,10 @@ The most common format used for NFT metadata is [JSON](https://www.json.org/json
 
 - [Open Zeppelin](https://docs.openzeppelin.com/)
 - [Best NFT site](https://nftschool.dev/)
+- [NFT storage](https://nft.storage/#docs)
+- [IPFS](https://docs.ipfs.tech/)
+- [Opensea NFt standards](https://docs.opensea.io/docs/metadata-standards)
+- [Chainlink NFT standards](https://blog.chain.link/build-deploy-and-sell-your-own-dynamic-nft/)
 
 
 ## Tools
