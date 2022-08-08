@@ -27,8 +27,16 @@ Merkle DAG nodes are immutable. Any change in a node would alter its identifier 
 > Merkle Trees children nodes cant have more tha one parent node. 
 > Each node in the DAG is addressed and can be accessed indpendently.
 
+## From data to data structures with IPLD(Interplanetary Linked Data)
 
+![IPLD](https://github.com/PriyathamVarma/Basic_NFT/blob/main/Diagrams/content-addressable-archives.png)
+
+- IPLD provides the standards and formats to build data structures based on mekle-dags
+- With IPLD we can go from data to data structures
+- IPLD is a graph which represents tree of folders in the file system.
 
 # IMPORTANT RESOURCES
 
 - [About Cryptography](https://proto.school/merkle-dags/01)
+- [DAG visualisation](https://dag.ipfs.io/)
+- [IPFS](https://medium.com/hackernoon/ipfs-and-merkle-forest-a6b7f15f3537)
