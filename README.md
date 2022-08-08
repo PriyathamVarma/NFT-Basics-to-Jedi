@@ -19,7 +19,7 @@ Posibility to associate metadata to the NFTs.
 
 The ERC721URIStorage contract is an implementation of ERC721 that includes the metadata standard extensions (IERC721Metadata) as well as a mechanism for per-token metadata. That’s where the _setTokenURI method comes from: we use it to store an item’s metadata.
 
-### Content Addressing
+### [Content Addressing](https://github.com/PriyathamVarma/Basic_NFT/tree/main/Content-addressing)
 
 
 
