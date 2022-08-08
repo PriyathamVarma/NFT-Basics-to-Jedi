@@ -35,8 +35,18 @@ Merkle DAG nodes are immutable. Any change in a node would alter its identifier 
 - With IPLD we can go from data to data structures
 - IPLD is a graph which represents tree of folders in the file system.
 
+## Anatomy of a CID
+
+<base>base(<cid-version><multicode><multihash>)
+  
+ - Multihash: A self-describing hash digest
+ - Multicodec: A pre-set number to uniquely identify a format, or protocol
+ - Multibase: A self-describing base-encoded string
+  
+
 # IMPORTANT RESOURCES
 
 - [About Cryptography](https://proto.school/merkle-dags/01)
 - [DAG visualisation](https://dag.ipfs.io/)
 - [IPFS](https://medium.com/hackernoon/ipfs-and-merkle-forest-a6b7f15f3537)
+- [CID visualisation](https://cid.ipfs.tech/)
