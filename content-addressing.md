@@ -25,6 +25,35 @@
 
 ![Integrity Checking](https://github.com/PriyathamVarma/Basic_NFT/blob/main/Diagrams/Integrity%20checking.drawio.png)
 
+The hash/fingerprint that is requested cannot be changed as every content is hashed and any change in the data automatically changes the entire hash. 
+
+### IPFS components
+
+#### Content Addressing
+
+- Chunking
+- Linking chunks in merkle DAGs
+- From data to data structures with IPLD
+- Anatomy of the IPFS CID
+
+#### Content Discovery & Routing
+
+- Routing & Provider records
+- DHT-based Routing
+- Gossip-based routing
+
+#### Content Exchange
+
+- Bitswap
+- GraphSync
+
+#### Mutable Names & Message Delivery
+
+- Dynamic Data
+- IPNS
+- PubSub
+- CRDTs.
+
 ## Content addressing in IPFS(Inter Planetary file system)
 
 1. Chunking
