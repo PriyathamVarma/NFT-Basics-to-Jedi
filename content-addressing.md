@@ -4,9 +4,9 @@
 
 ## Content addressing in IPFS(Inter Planetary file system)
 
-> Chunking
-> Linking Chunks in Merkle DAGs
-> Going from data to data structures with IPLD
+1. Chunking
+2. Linking Chunks in Merkle DAGs
+3. Going from data to data structures with IPLD
 
 ## Anatomy of the IPFS content Identifier(CID)
 
