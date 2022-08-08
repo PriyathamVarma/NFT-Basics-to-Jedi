@@ -19,7 +19,15 @@ Posibility to associate metadata to the NFTs.
 
 The ERC721URIStorage contract is an implementation of ERC721 that includes the metadata standard extensions (IERC721Metadata) as well as a mechanism for per-token metadata. That’s where the _setTokenURI method comes from: we use it to store an item’s metadata.
 
+[Metadata](https://en.wikipedia.org/wiki/Metadata) is the data that provides information about other data but not the content of the data. In NFTs case, the metadata represnts the name, description, and other properties. 
 
+> Why metadata standards are needed?
+
+To make your NFT's compatible with market places and other platforms we need to follow the standards.
+
+### Metadata schemas
+
+NFTs are digital assets which represent images, videos, links, articles etc and the way we can do it is using through metadata. 
 
 ## Prerequesties
 
