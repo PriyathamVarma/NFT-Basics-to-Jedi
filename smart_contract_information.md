@@ -42,3 +42,4 @@ For anyone to mint the NFT take down the onlyOwner modifier for the safeMint fun
 
 ```
 Go to [open zeppelien docs](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721-_safeMint-address-uint256-) for understanding what safe mint does.
+
