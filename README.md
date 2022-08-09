@@ -67,7 +67,9 @@ When linking from your metadata to another digital asset like an image file, we 
 10. Go to the image and you can look at the details of the image.
 11. Copy the IPFS gateway URL to check the image that you have uploaded.
 12. In your metadata change the image URL to the IPFS gateway URL.
-13. Change the parameters if needed and save the file as metadata.json
+13. Change the parameters if needed and save the file as metadata.json.Go to this [file](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/blob/main/metadata.json) for an overview
+14. Upload the metadata.json in the filebase as you did with the image. Cross check the IPFS gateway URL if needed.
+15. Copy the IPFS CID and paste it in 
 
 
 ## Important Links
