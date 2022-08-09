@@ -59,6 +59,15 @@ When linking from your metadata to another digital asset like an image file, we 
 2. Get testnet tokens using related faucets.
 3. Use remix to deploy the smart contracts using Injected web3provider.
 4. Before NFT minting we need to add metadata. Go to [OpenSea](https://docs.opensea.io/docs/metadata-standards) metadata standards.
+5. Copy the objects from the page and paste it in [JSON online editor](https://jsoneditoronline.org/#left=local.wayego).
+6. We need to upload images to IPFS for which we will use [Filebase](https://filebase.com/) which is free to use.
+7. Create a free account and go to your dashboard.
+8. Click on buckets --> name bucket then choose IPFS for storage network.
+9. Upload an image inside the bucket.
+10. Go to the image and you can look at the details of the image.
+11. Copy the IPFS gateway URL to check the image that you have uploaded.
+12. In your metadata change the image URL to the IPFS gateway URL.
+13. Change the parameters if needed and save the file as metadata.json
 
 
 ## Important Links
