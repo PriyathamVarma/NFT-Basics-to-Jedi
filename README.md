@@ -69,7 +69,12 @@ When linking from your metadata to another digital asset like an image file, we 
 12. In your metadata change the image URL to the IPFS gateway URL.
 13. Change the parameters if needed and save the file as metadata.json.Go to this [file](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/blob/main/metadata.json) for an overview
 14. Upload the metadata.json in the filebase as you did with the image. Cross check the IPFS gateway URL if needed.
-15. Copy the IPFS CID and paste it in 
+15. Copy the IPFS CID and paste it in the safemint method inside the remix contract interface
+16. Wait for the transaction to go through as it will take time.
+17. Cross check using balanceOf and enter your address to check the number of tokens for your address.
+18. Also go to etherscan to check your txns.
+19. Go to [opensea testnet](https://testnets.opensea.io/) and connect with metamask.
+20. Go to dashboard and look for your collectibles. Go to this [link](https://testnets.opensea.io/assets/mumbai/0x1ea800fc74bbcaf6e9d9dcd83dfacc3bb8b576c8/0) to check what we have deployed for sample.
 
 
 ## Important Links
