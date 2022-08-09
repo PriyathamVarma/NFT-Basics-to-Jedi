@@ -5,23 +5,9 @@ This repo is for showing basic implementation of NFTs(ERC-721 tokens) using open
 
 NFTs are unique and are owned by owners address. These can be used for real estate, voting rights and other self containing stuff. 
 
-### Use of metadata
+## Use of metadata
 
 APIs for the NFT.
-
-### Use of Enumerable
-
-Check the balance of account on how many NFTs an account has.
-
-### Use of URIStorage
-
-Posibility to associate metadata to the NFTs.
-
-The ERC721URIStorage contract is an implementation of ERC721 that includes the metadata standard extensions (IERC721Metadata) as well as a mechanism for per-token metadata. That’s where the _setTokenURI method comes from: we use it to store an item’s metadata.
-
-### [Content Addressing](https://github.com/PriyathamVarma/Basic_NFT/tree/main/Content-addressing)
-
-Content addressing is used to store the data file.
 
 ### Metadata schemas
 
@@ -38,6 +24,22 @@ To make your NFT's compatible with market places and other platforms we need to 
 > JSON for metadata
 
 The most common format used for NFT metadata is [JSON](https://www.json.org/json-en.html). 
+
+## Use of Enumerable
+
+Check the balance of account on how many NFTs an account has.
+
+## Use of URIStorage
+
+Posibility to associate metadata to the NFTs.
+
+The ERC721URIStorage contract is an implementation of ERC721 that includes the metadata standard extensions (IERC721Metadata) as well as a mechanism for per-token metadata. That’s where the _setTokenURI method comes from: we use it to store an item’s metadata.
+
+### [Content Addressing](https://github.com/PriyathamVarma/Basic_NFT/tree/main/Content-addressing)
+
+Content addressing is used to store the data file.
+
+
 
 > Linking to NFT Assets
 
