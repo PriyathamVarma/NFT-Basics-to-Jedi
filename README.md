@@ -55,6 +55,11 @@ When linking from your metadata to another digital asset like an image file, we 
 
 ## Steps
 
+1. First create a alchemy account and choose a testnet.
+2. Get testnet tokens using related faucets.
+3. Use remix to deploy the smart contracts using Injected web3provider.
+4. Before NFT minting we need to add metadata. Go to [OpenSea](https://docs.opensea.io/docs/metadata-standards) metadata standards.
+
 
 ## Important Links
 
