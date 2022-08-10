@@ -17,3 +17,6 @@ towards the smart contract.
 # Useful Resources
 
 - [Ceramic](https://ceramic.network/)
+- [Tableland](https://docs.tableland.xyz/use-cases)
+- [Recommended Tools](https://nftschool.dev/reference/recommended-tools/#online-integrated-development-environments-ides)
+- [How to create dynamic NFT](https://blog.chain.link/build-deploy-and-sell-your-own-dynamic-nft/)
