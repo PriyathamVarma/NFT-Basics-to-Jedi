@@ -13,3 +13,7 @@ So, instead of pointing towards CID which is immutable we could actually include
 towards the smart contract.
 
 ![dynamic Nfts](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/blob/main/Diagrams/Dynamic_NFTs.drawio.png)
+
+# Useful Resources
+
+- [Ceramic](https://ceramic.network/)
