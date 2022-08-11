@@ -30,6 +30,7 @@ Used to represent the data.
 * tiles: Individual data records based on parameters set within the schema.
 
 ```
+![data model](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/blob/main/Diagrams/data%20models.png)
 
 ### Steps
 
