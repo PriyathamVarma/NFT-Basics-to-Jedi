@@ -1,0 +1,27 @@
+{
+  "name": "ceramic",
+  "version": "1.0.0",
+  "description": "Ceramic makes building applications with composable Web3 data as easy as browsing a marketplace of data models, plugging them into your app, and storing,\r updating, and retrieving data from those models. When different applications reuse the same data models, \r their data is automatically interoperable. By decentralizing application databases, Ceramic makes data composable and reusable across all applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "dids": "^3.2.0",
+    "key-did-provider-ed25519": "^2.0.1",
+    "key-did-resolver": "^2.0.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@ceramicnetwork/blockchain-utils-linking": "^2.0.8",
+    "@ceramicnetwork/http-client": "^2.3.1",
+    "@glazed/did-datastore": "^0.3.2",
+    "@glazed/did-session": "^0.1.1"
+  }
+}
