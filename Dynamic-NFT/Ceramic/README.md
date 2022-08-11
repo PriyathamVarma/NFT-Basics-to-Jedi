@@ -17,7 +17,14 @@ their data is automatically interoperable. By decentralizing application databas
 
 
 
+## Skills Required to understand
 
+- [HTML](https://www.w3schools.com/html/default.asp)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [JS](https://www.w3schools.com/js/)
+- [NPM](https://www.npmjs.com/)
+- [Webpack](https://webpack.js.org/)
+- [Git](https://github.com/)
 
 
 
