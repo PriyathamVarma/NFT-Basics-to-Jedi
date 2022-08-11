@@ -12,8 +12,34 @@ their data is automatically interoperable. By decentralizing application databas
 
 ![Did flow](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/blob/main/Diagrams/did_flow.png)
 
+### Data Streams
 
+Data streams are structure for a stream. More like a schema for a data strucrture.
 
+### Data Models
+
+Used to represent the data.
+
+```
+## Parts of a datamodel
+
+* schemas: Define the JSON schema for the data model.
+
+* definitions: Link a user-friendly model name and description to a specific schema.
+
+* tiles: Individual data records based on parameters set within the schema.
+
+```
+
+### Steps
+
+1. Create a folder named as you like.
+2. Create an index.html file and enter the code that is there in the index.html file in this repo
+3. Create a styles.css and add to the index.html
+4. Initialize nodejs project using npm init -y
+5. Install dependencies --> npm install -D buffer dids key-did-provider-ed25519 key-did-resolver webpack webpack-cli
+6. And --> npm install @ceramicnetwork/blockchain-utils-linking @ceramicnetwork/http-client @glazed/did-datastore @glazed/did-session
+7. Create a js file called main.js in the root directory
 
 
 ## Terms to be discussed
