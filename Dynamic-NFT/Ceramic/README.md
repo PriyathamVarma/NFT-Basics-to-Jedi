@@ -43,7 +43,7 @@ Used to represent the data.
 7. Create a js file called main.js in the root directory
 8. Use the js code inside the main.js to work with ceramic network
 9. Add webpack.config.js in the root directory and copy the code in this repo to paste it in your page
-10. Add ''' "build" : 'webpack" ``` inside the scripts in package.json.
+10. Add ``` "build" : 'webpack" ``` inside the scripts in package.json.
 11. Run ``` npm run build ``` to bundle the packages
 
 
@@ -68,8 +68,8 @@ Used to represent the data.
 
 
 ## Useful Links
--[Ceramic docs](https://developers.ceramic.network/learn/welcome/)
--[DID](https://tykn.tech/decentralized-identifiers-dids/)
--[DID in depth](https://decentralized-id.com/web-standards/w3c/wg/did/decentralized-identifier/)
--[Whitepaper](https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/DID-Whitepaper.md)
--[Ceramic Improvement Protocol](https://github.com/ceramicnetwork/CIP)
+- [Ceramic docs](https://developers.ceramic.network/learn/welcome/)
+- [DID](https://tykn.tech/decentralized-identifiers-dids/)
+- [DID in depth](https://decentralized-id.com/web-standards/w3c/wg/did/decentralized-identifier/)
+- [Whitepaper](https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/DID-Whitepaper.md)
+- [Ceramic Improvement Protocol](https://github.com/ceramicnetwork/CIP)
