@@ -1,4 +1,4 @@
-# IDX -> Identity Index
+# IDX -> Identity Index > This is deprecated and only refer for knowledge
 
 IDX is a multi-platform identity protocol that replaces centralized user tables with a decentralized alternative. 
 IDX allows users to build up a unified digital identity consisting of all their data while enabling developers to 
