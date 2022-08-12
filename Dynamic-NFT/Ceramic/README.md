@@ -47,7 +47,10 @@ Used to represent the data.
 11. Run ``` npm run build ``` to bundle the packages
 
 
-## Creating Ceramic Schemas
+## Creating Ceramic Schemas using Glaze
+Go to this [Link](https://developers.ceramic.network/tools/glaze/example/#__tabbed_1_2) for better understanding
+
+
 
 
 
@@ -77,3 +80,4 @@ Used to represent the data.
 - [DID in depth](https://decentralized-id.com/web-standards/w3c/wg/did/decentralized-identifier/)
 - [Whitepaper](https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/DID-Whitepaper.md)
 - [Ceramic Improvement Protocol](https://github.com/ceramicnetwork/CIP)
+- [Cli installation](https://developers.ceramic.network/build/cli/installation/)

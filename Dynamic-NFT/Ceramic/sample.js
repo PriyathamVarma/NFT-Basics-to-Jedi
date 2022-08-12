@@ -1,0 +1,1 @@
+const CeramicClient = require('@ceramicnetwork/http-client').default;
