@@ -14,7 +14,7 @@ towards the smart contract.
 
 ![dynamic Nfts](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/blob/main/Diagrams/Dynamic_NFTs.drawio.png)
 
-## Approach 2 : Ceramic Streams
+## Approach 2 : [Ceramic Streams](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/tree/main/Dynamic-NFT/Ceramic)
 
 Ceramic (opens new window)is an IPFS-based system for decentralized data streams. A Ceramic stream consists of an append-only log of commits where updates are signed by a decentralized identifier (DID), validated against a set of state transition rules, then anchored on a blockchain.
 
