@@ -57,7 +57,7 @@ When linking from your metadata to another digital asset like an image file, we 
 
 1. First create a alchemy account and choose a testnet.
 2. Get testnet tokens using related faucets.
-3. Use remix to deploy the smart contracts using Injected web3provider.
+3. Use remix to deploy the [smart contracts](https://github.com/PriyathamVarma/NFT-Basics-to-Jedi/blob/main/smart_contract_information.md) using Injected web3provider.
 4. Before NFT minting we need to add metadata. Go to [OpenSea](https://docs.opensea.io/docs/metadata-standards) metadata standards.
 5. Copy the objects from the page and paste it in [JSON online editor](https://jsoneditoronline.org/#left=local.wayego).
 6. We need to upload images to IPFS for which we will use [Filebase](https://filebase.com/) which is free to use.

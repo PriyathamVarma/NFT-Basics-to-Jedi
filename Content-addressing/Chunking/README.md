@@ -16,7 +16,7 @@ In cryptography and computer science, a hash tree or [Merkle tree](https://en.wi
 
 ![Merkle DAGs](https://github.com/PriyathamVarma/Basic_NFT/blob/main/Diagrams/merkleDAGs.png)
 
-[Merkle DAGs](https://docs.ipfs.tech/concepts/merkle-dag/) is a DAG where each node has an identifier, and this is the result of hashing the node's contents — any opaque payload carried by the node and the list of identifiers of its children — using a cryptographic hash function like SHA256. This brings some important considerations:
+[Merkle DAGs](https://docs.ipfs.tech/concepts/merkle-dag/) is a DAG(Directed acyclic trees) where each node has an identifier, and this is the result of hashing the node's contents — any opaque payload carried by the node and the list of identifiers of its children — using a cryptographic hash function like SHA256. This brings some important considerations:
 
 Merkle DAGs can only be constructed from the leaves, that is, from nodes without children. Parents are added after children because the children's identifiers must be computed in advance to be able to link them.
 Every node in a Merkle DAG is the root of a (sub)Merkle DAG itself, and this subgraph is contained in the parent DAG.

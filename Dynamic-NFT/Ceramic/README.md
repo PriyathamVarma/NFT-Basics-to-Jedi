@@ -43,7 +43,7 @@ Used to represent the data.
 7. Create a js file called main.js in the root directory
 8. Use the js code inside the main.js to work with ceramic network
 9. Add webpack.config.js in the root directory and copy the code in this repo to paste it in your page
-10. Add ``` "build" : 'webpack" ``` inside the scripts in package.json.
+10. Add ``` "build" : "webpack" ``` inside the scripts in package.json.
 11. Run ``` npm run build ``` to bundle the packages
 
 
