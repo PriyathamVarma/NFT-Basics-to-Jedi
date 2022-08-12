@@ -43,3 +43,69 @@ For anyone to mint the NFT take down the onlyOwner modifier for the safeMint fun
 ```
 Go to [open zeppelien docs](https://docs.openzeppelin.com/contracts/4.x/api/token/erc721#ERC721-_safeMint-address-uint256-) for understanding what safe mint does.
 
+
+# Full smart contract
+```
+// SPDX-License-Identifier: MIT
+// The solidity versioning
+pragma solidity ^0.8.4;
+//0x1ea800Fc74BBCAF6E9D9DCd83Dfacc3Bb8b576c8
+
+// Imports for implementing ERC721 standards
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
+
+contract VCollections is ERC721, ERC721Enumerable, ERC721URIStorage {
+    using Counters for Counters.Counter;
+
+    Counters.Counter private _tokenIdCounter;
+
+    //variables
+    uint256 MAX_SUPPLY = 100;
+
+
+    constructor() ERC721("VCollections", "VCL") {}
+
+    function safeMint(address to, string memory uri) public {
+        uint256 tokenId = _tokenIdCounter.current();
+        require(tokenId <= MAX_SUPPLY, "Over the Limit");
+        _tokenIdCounter.increment();
+        _safeMint(to, tokenId);
+        _setTokenURI(tokenId, uri);
+    }
+
+    function _beforeTokenTransfer(address from, address to, uint256 tokenId)
+        internal
+        override(ERC721, ERC721Enumerable)
+    {
+        super._beforeTokenTransfer(from, to, tokenId);
+    }
+
+    // The following functions are overrides required by Solidity because we are using interfaces.
+
+    function tokenURI(uint256 tokenId)
+        public
+        view
+        override(ERC721, ERC721URIStorage)
+        returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        override(ERC721, ERC721Enumerable)
+        returns (bool)
+    {
+        return super.supportsInterface(interfaceId);
+    }
+
+    function _burn(uint256 tokenId) internal override(ERC721,ERC721URIStorage){
+        super._burn(tokenId);
+    }
+}
+
+```
