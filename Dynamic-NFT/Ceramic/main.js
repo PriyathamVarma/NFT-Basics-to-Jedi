@@ -115,6 +115,7 @@ function renderProfileData(data) {
     data.name ? profileName.innerHTML = "Name:     " + data.name : profileName.innerHTML = "Name:     "
     data.gender ? profileGender.innerHTML = "Gender:     " + data.gender : profileGender.innerHTML = "Gender:     "
     data.country ? profileCountry.innerHTML = "Country:     " + data.country : profileCountry.innerHTML = "Country:     "
+    
 }
 
 /* The data is the profile object that is returned from the datastore.get() call. 

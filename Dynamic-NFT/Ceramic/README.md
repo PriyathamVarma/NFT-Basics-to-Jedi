@@ -47,6 +47,10 @@ Used to represent the data.
 11. Run ``` npm run build ``` to bundle the packages
 
 
+## Creating Ceramic Schemas
+
+
+
 ## Terms to be discussed
 
 - [Decentralised identifier(DID)](https://www.w3.org/TR/did-core/)
