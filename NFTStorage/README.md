@@ -8,9 +8,9 @@ NFT.Storage is a storage service that lets you upload off-chain NFT data for fre
 
 ## Steps
 
-1. [Create an NFT.storage account]()\#subsec:create
+1. Create an NFT.storage account(#subsec:create)
 2. [Upload metadata]()
 3. [Get free API token]()
 4. [Use JS API]()
 
-### Create an account\@ref(subsec:create)
+### [Create an account](#subsec:create)
